@@ -1,9 +1,11 @@
 import React from 'react';
 import Title from './components/Title';
+import UploadForm from './components/UploadForm';
 const App = () => {
     return (
         <div className='app'>
             <Title />
+            <UploadForm />
         </div>
     )
 };
