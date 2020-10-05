@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Title from './components/Title';
 const App = () => {
     return (
-        <div>
-            <h1>Firegrame</h1>
+        <div className='app'>
+            <Title />
         </div>
     )
 };
